@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    margin-top: 30px;
+    border: 2px solid #fff;
+}
+.main{
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.card{
+    width: 300px; 
+    margin: 40px;
+    background-color: rgba(113, 113, 113, 0.5);
+    box-shadow: 0 10px 10px #00000024;
+    border-radius: 15px;
+    display:inline-block;
+    position: flex;
+}
+.profile {
+    position: relative;
+    height: 48px;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    border: 8px solid #0A1124;
+    box-shadow: 0 0 20px #00000033;
+}
+
+.profile-img:hover {
+    width: 180px;
+    height: 180px;
+    border-color: green;
+}
+.profile {
+    padding: 10px 40px;
+}
+
+.title {
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c74385;
+    text-align: center;
+}
+.title:hover {
+    font-size: 20px;
+    color: #d885af;
+}
+p.name{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+p.job{
+    font-size: 12px;
+    text-align: center;
+    color:#c2bdbd;
+}
+.quote{
+    margin-top: 20px;
+    font-size: 14px; 
+    font-style: italic;
+    color: #ffffff;
+    padding-right: 20px; 
+    padding-left: 20px; 
+    text-align: center;  
+}
+.card-footer {
+    background-color: #b72c72;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 20px 0 20px 0;
+}
+.button{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: 2px solid transparent;
+    width: 150px;
+    text-align: center;
+    background-color:  green;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #5bf713;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    
+}
+.button:hover{
+    transform: translateY(-6px);
+}
+.button:active{
+    box-shadow: 0 3px #025a02;
+    transform: translateY(8px);
+}
+.fam-info{
+    margin-left: 100px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 2px;
+    border: solid green;
+}
+.fam-info:hover{
+    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+    border-style: none;
+}
+p.content{
+    padding: 40px 40px 40px 40px;
+    text-align: justify;
+    text-indent: 3em;
+}
